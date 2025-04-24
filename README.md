@@ -1,34 +1,85 @@
-# Counter-App
-A Simple Counter App in Android that increases the count number on click of the button.
+```markdown
+# 📱 CounterApp
 
-Inspired by the Udemy course on [**The Complete Android 15 Course -Build 82 Apps [Java& Kotlin]**](https://www.udemy.com/course/the-complete-android-10-developer-course-mastering-android/) Created by [Abbass Masri](https://www.udemy.com/user/mahmoud-masri-7/).
+A simple Android application built with **Kotlin** that demonstrates the basics of button handling, UI updates, and activity lifecycle. This app allows users to increment, decrement, and reset a counter value.
 
-# Understood and Implemented concepts-
-* Android Components
-  * Activity
-    * State Changes
-      * onSaveInstanceState(@NonNull Bundle outState)
-* Static User Interface
-  * Views & Widgets
-    * TextView
-    * Button
-      * setOnClickListener()
-  * ViewGroup
-    * ConstraintLayout
-* UI Resources
-  * Drawables
-    * Set particular image as background
+---
 
-# Extra features and functions added by me-
-* On device rotation the counter number remains same. (used onSaveInstanceState())
-* Made status bar transparent
+## 🚀 Features
 
-# Output Screenshot-
-<p align="center">
-<img src="https://github.com/CGreenP/Counter-App/assets/56307530/2c372b5c-5e5d-48b2-a518-342524c4c42c" width="288">
-<img src="https://github.com/CGreenP/Counter-App/assets/56307530/c9e024f6-014a-458d-af8f-5fc880b461d0" width="288">
-</p>
+- ➕ Increment the counter
+- ➖ Decrement the counter
+- 🔄 Reset the counter to zero
+- 💾 State saved during configuration changes (e.g., screen rotation)
+- 🧩 Built using ConstraintLayout for responsive design
 
-# Output Video-
-https://github.com/CGreenP/Counter-App/assets/56307530/d389bac1-0203-4abb-929d-889d4b3e3138
+---
 
+## 🛠 Tech Stack
+
+- **Kotlin**
+- **Android Studio**
+- **ConstraintLayout**
+- **View Binding** *(if used)*
+
+---
+
+## 📸 Screenshots
+
+```
+
+![Counter](https://github.com/user-attachments/assets/7594ed4a-b7bc-4c48-b0f1-22c7e031a1d0)
+![Counter01](https://github.com/user-attachments/assets/7393772a-b1ff-4682-b17c-ab86eaec0cc7) 
+👉 [Click here to watch How it Looks Like](Counter-App-master\app\src\main\res\drawable\CounterVid.mp4)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/HimanshuHeda/CounterApp.git
+```
+
+2. **Open the project in Android Studio**
+
+3. **Sync Gradle files**  
+   Navigate to: `File > Sync Project with Gradle Files`
+
+4. **Run the app**  
+   Use either a physical device or an emulator
+
+---
+
+## 🎯 Usage
+
+- Tap **➕** to increase the counter
+- Tap **➖** to decrease the counter
+- Tap **Reset** to set the counter back to zero
+
+---
+
+## 🧠 Learnings
+
+This project helps understand:
+
+- Basics of Kotlin in Android
+- Handling button click listeners
+- Android UI with ConstraintLayout
+- Saving state during activity lifecycle
+- Simple Android app architecture
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙌 Acknowledgments
+
+- [Android Developers](https://developer.android.com/)
+- Open-source Kotlin & Android tutorials on YouTube
+- Google Codelabs for Android Basics in Kotlin
