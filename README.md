@@ -30,7 +30,7 @@ A simple Android application built with **Kotlin** that demonstrates the basics 
 
 ![Counter](https://github.com/user-attachments/assets/7594ed4a-b7bc-4c48-b0f1-22c7e031a1d0)
 ![Counter01](https://github.com/user-attachments/assets/7393772a-b1ff-4682-b17c-ab86eaec0cc7) 
-👉 [Click here to watch How it Looks Like](Counter-App-master\app\src\main\res\drawable\CounterVid.mp4)
+👉 [Click here to watch How it Looks Like](app\src\main\res\drawable\CounterVid.mp4)
 
 ---
 
